@@ -56,18 +56,15 @@
 
 :root {
   color-scheme: light;
-  /* jouw variabelen hier */
 }
 
 .dark {
   color-scheme: dark;
-  /* jouw variabelen hier */
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not(.light) {
     color-scheme: dark;
-    /* jouw variabelen hier */
   }
 }
 
